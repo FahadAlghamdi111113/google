@@ -1,0 +1,300 @@
+import 'packagefluttermaterial.dart';
+import 'packagegrouped_listgrouped_list.dart';
+
+class CodiaPage extends StatefulWidget {
+  CodiaPage({super.key});
+
+  @override
+  StateStatefulWidget createState() = _CodiaPage();
+}
+
+class _CodiaPage extends StateCodiaPage {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color Colors.white,
+      child Container(
+        width 1449,
+        height 1025,
+        decoration BoxDecoration(
+          color const Color(0xfffbfdf2),
+        ),
+        child Stack(
+          children [
+            Positioned(
+              left 811.037,
+              width 139.743,
+              top 953.75,
+              height 139.274,
+              child Image.asset('imagesimgSubtract_61677.png', width 139.743, height 139.274,),
+            ),
+            Positioned(
+              left 720.5,
+              width 646,
+              top 1144.5,
+              height 1,
+              child Container(
+                width 646,
+                height 1,
+                decoration BoxDecoration(
+                  color const Color(0xffe5e8eb),
+                ),
+              ),
+            ),
+            Positioned(
+              left 753.5,
+              width 646,
+              top 1075.5,
+              height 1,
+              child Container(
+                width 646,
+                height 1,
+                decoration BoxDecoration(
+                  color const Color(0xffe5e8eb),
+                ),
+              ),
+            ),
+            Positioned(
+              left 675.534,
+              width 645.931,
+              top 1104.267,
+              height 11.467,
+              child Container(
+                width 645.931,
+                height 11.467,
+                decoration BoxDecoration(
+                  color const Color(0xffe5e8eb),
+                ),
+              ),
+            ),
+            Positioned(
+              left 401,
+              width 138,
+              top 14,
+              height 52,
+              child Container(
+                width 138,
+                height 52,
+                decoration BoxDecoration(
+                  color const Color(0xffe5e8eb),
+                  borderRadius BorderRadius.circular(90),
+                ),
+                child Padding(
+                  padding const EdgeInsets.only(left 24, top 16, right 24, bottom 16),
+                  child Row(
+                    mainAxisAlignment MainAxisAlignment.center,
+                    crossAxisAlignment CrossAxisAlignment.center,
+                    children [
+                      Column(
+                        mainAxisAlignment MainAxisAlignment.center,
+                        children [
+                          SizedBox(
+                            width 83,
+                            height 16,
+                            child Text(
+                              'System',
+                              textAlign TextAlign.center,
+                              style TextStyle(decoration TextDecoration.none, fontSize 16, color const Color(0xff000000), fontFamily 'DMSans-Bold', fontWeight FontWeight.normal),
+                              maxLines 9999,
+                              overflow TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Positioned(
+              left 571,
+              width 2,
+              top 20,
+              height 40,
+              child Container(
+                width 2,
+                height 40,
+                decoration BoxDecoration(
+                  color const Color(0xffe5e8eb),
+                  borderRadius BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            Positioned(
+              left 605,
+              top 32,
+              child Text(
+                'Home',
+                textAlign TextAlign.center,
+                style TextStyle(decoration TextDecoration.none, fontSize 16, color const Color(0xff777e90), fontFamily 'DMSans-Bold', fontWeight FontWeight.normal),
+                maxLines 9999,
+                overflow TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left 683,
+              top 32,
+              child Text(
+                'Discover',
+                textAlign TextAlign.center,
+                style TextStyle(decoration TextDecoration.none, fontSize 16, color const Color(0xff777e90), fontFamily 'DMSans-Bold', fontWeight FontWeight.normal),
+                maxLines 9999,
+                overflow TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left 783,
+              top 32,
+              child Text(
+                'Blog',
+                textAlign TextAlign.center,
+                style TextStyle(decoration TextDecoration.none, fontSize 16, color const Color(0xff777e90), fontFamily 'DMSans-Bold', fontWeight FontWeight.normal),
+                maxLines 9999,
+                overflow TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left 848,
+              top 32,
+              child Text(
+                'About Us',
+                textAlign TextAlign.center,
+                style TextStyle(decoration TextDecoration.none, fontSize 16, color const Color(0xff777e90), fontFamily 'DMSans-Bold', fontWeight FontWeight.normal),
+                maxLines 9999,
+                overflow TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left 951,
+              top 32,
+              child Text(
+                'Contact',
+                textAlign TextAlign.center,
+                style TextStyle(decoration TextDecoration.none, fontSize 16, color const Color(0xff777e90), fontFamily 'DMSans-Bold', fontWeight FontWeight.normal),
+                maxLines 9999,
+                overflow TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left 1393,
+              top 1,
+              child Image.asset('imagescontainerFrame1_6154.png',),
+            ),
+            Positioned(
+              left 693,
+              width 48,
+              top 52,
+              height 1,
+              child Container(
+                width 48,
+                height 1,
+                decoration BoxDecoration(
+                  border Border.all(color const Color(0xffff0000), width 1),
+                ),
+              ),
+            ),
+            Positioned(
+              left 476,
+              width 108,
+              top 325,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 362,
+              width 108,
+              top 325,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 246,
+              width 108,
+              top 325,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 130,
+              width 108,
+              top 325,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 14,
+              width 108,
+              top 325,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 148,
+              width 108,
+              top 459,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 16,
+              width 108,
+              top 459,
+              height 35,
+              child Container(
+                width 108,
+                height 35,
+                decoration BoxDecoration(
+                  color const Color(0xff8bca79),
+                  borderRadius BorderRadius.circular(30),
+                ),
+              ),
+            ),
+            Positioned(
+              left 16,
+              width 204,
+              top 258,
+              height 47,
+              child Text(
+                'Categories',

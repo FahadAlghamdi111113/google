@@ -1,0 +1,300 @@
+import 'package:flutter/material.dart';
+import 'package:grouped_list/grouped_list.dart';
+
+class CodiaPage extends StatefulWidget {
+  CodiaPage({super.key});
+
+  @override
+  State<StatefulWidget> createState() => _CodiaPage();
+}
+
+class _CodiaPage extends State<CodiaPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.white,
+      child: Container(
+        width: 1449,
+        height: 1025,
+        decoration: BoxDecoration(
+          color: const Color(0xfffbfdf2),
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              left: 760,
+              width: 741.606,
+              top: -22,
+              height: 1519.482,
+              child: Image.asset('images/imageGroup_2880.png', width: 741.606, height: 1519.482,),
+            ),
+            Positioned(
+              left: 133,
+              width: 424,
+              top: 713,
+              child: Container(
+                width: 424,
+                decoration: BoxDecoration(
+                  color: const Color(0xff131416),
+                  borderRadius: BorderRadius.circular(90),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 24, top: 16, right: 24, bottom: 16),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            'Sign Up',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xfffbfcfc), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                            maxLines: 9999,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 133,
+              width: 424,
+              top: 781,
+              height: 96,
+              child: Stack(
+                children: [
+                  Positioned(
+                    left: 0,
+                    width: 424,
+                    top: 0,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Expanded(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  width: double.infinity,
+                                  height: 1,
+                                  decoration: BoxDecoration(
+                                    border: Border.all(color: const Color(0xffedf2f7), width: 1),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(width: 24),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              'or do it via other accounts',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(decoration: TextDecoration.none, fontSize: 12, color: const Color(0xff718096), fontFamily: 'Inter-Medium', fontWeight: FontWeight.normal),
+                              maxLines: 9999,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
+                        ),
+                        const SizedBox(width: 24),
+                        Expanded(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  width: double.infinity,
+                                  height: 1,
+                                  decoration: BoxDecoration(
+                                    border: Border.all(color: const Color(0xffedf2f7), width: 1),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Positioned(
+                    left: 113,
+                    width: 54,
+                    top: 42,
+                    height: 54,
+                    child: Image.asset('images/imageGroup1_5925.png', width: 54, height: 54,),
+                  ),
+                  Positioned(
+                    left: 201,
+                    top: 42,
+                    child: Image.asset('images/containerFrame_17262.png',),
+                  ),
+                  Positioned(
+                    left: 126.109,
+                    width: 31.194,
+                    top: 54.315,
+                    height: 28.027,
+                    child: Image.asset('images/imageGroup2_5933.png', width: 31.194, height: 28.027,),
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              left: 246,
+              top: 902,
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          'Aldready have an account? Sign In',
+                          textAlign: TextAlign.right,
+                          style: TextStyle(decoration: TextDecoration.none, fontSize: 14, color: const Color(0xff425466), fontFamily: 'Inter-SemiBold', fontWeight: FontWeight.normal),
+                          maxLines: 9999,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Positioned(
+              left: 889,
+              width: 425,
+              top: 112,
+              child: Text(
+                'Create your account ',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 28, color: const Color(0xff000000), fontFamily: 'Inter-SemiBold', fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 893,
+              width: 425,
+              top: 169,
+              child: Text(
+                'For the sponsors  ',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xffffffff), fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 891,
+              width: 424,
+              top: 192,
+              child: Padding(
+                padding: const EdgeInsets.only(left: 0, top: 24, right: 0, bottom: 0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Expanded(
+                                child: Row(
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.start,
+                                          mainAxisSize: MainAxisSize.min,
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
+                                            Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    mainAxisSize: MainAxisSize.min,
+                                                    children: [
+                                                      Expanded(
+                                                        child: Row(
+                                                          children: [
+                                                            Expanded(
+                                                              child: Container(
+                                                                child: Column(
+                                                                  mainAxisAlignment: MainAxisAlignment.start,
+                                                                  mainAxisSize: MainAxisSize.min,
+                                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                                  children: [
+                                                                    Row(
+                                                                      children: [
+                                                                        Expanded(
+                                                                          child: Row(
+                                                                            mainAxisAlignment: MainAxisAlignment.start,
+                                                                            children: [
+                                                                              Expanded(
+                                                                                child: Row(
+                                                                                  children: [
+                                                                                    Expanded(
+                                                                                      child: Container(
+                                                                                        height: 17,
+                                                                                        child: Stack(
+                                                                                          children: [
+                                                                                            Positioned(
+                                                                                              left: 0,
+                                                                                              width: 425,
+                                                                                              top: 0,
+                                                                                              child: Text(
+                                                                                                '  ',
+                                                                                                textAlign: TextAlign.left,
+                                                                                                style: TextStyle(decoration: TextDecoration.none, fontSize: 14, color: const Color(0xff425466), fontFamily: 'Inter-Medium', fontWeight: FontWeight.normal),
+                                                                                                maxLines: 9999,
+                                                                                                overflow: TextOverflow.ellipsis,
+                                                                                              ),
+                                                                                            ),
+                                                                                          ],
+                                                                                        ),
+                                                                                      ),
+                                                                                    ),
+                                                                                  ],
+                                                                                ),
+                                                                              ),
+                                                                            ],
+                                                                          ),
+                                                                        ),
+                                                                      ],
+                                                                    ),
+                                                                    const SizedBox(height: 8),
+                                                                    Row(
+                                                                      mainAxisAlignment: MainAxisAlignment.start,
+                                                                      mainAxisSize: MainAxisSize.min,
+                                                                      children: [
+                                                                        Text(
+                                                                          'Name of the company or person',
+                                                                          textAlign: TextAlign.left,
+                                                                          style: TextStyle(decoration: TextDecoration.none, fontSize: 14, color: const Color(0xff000000), fontFamily: 'Inter-Medium', fontWeight: FontWeight.normal),
+                                                                          maxLines: 9999,
+                                                                          overflow: TextOverflow.ellipsis,
+                                                                        ),
+                                                                      ],

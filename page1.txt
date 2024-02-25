@@ -1,0 +1,812 @@
+import 'package:flutter/material.dart';
+import 'package:grouped_list/grouped_list.dart';
+
+class CodiaPage extends StatefulWidget {
+  CodiaPage({super.key});
+
+  @override
+  State<StatefulWidget> createState() => _CodiaPage();
+}
+
+class _CodiaPage extends State<CodiaPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.white,
+      child: Container(
+        width: 1449,
+        height: 1025,
+        decoration: BoxDecoration(
+          color: const Color(0xffffffff),
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              left: -186,
+              width: 2141,
+              top: -44,
+              height: 1465,
+              child: Image.asset('images/imageSidenavBg_1773.png', width: 2141, height: 1465,),
+            ),
+            Positioned(
+              left: 353,
+              top: 13,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        width: 138,
+                        height: 52,
+                        decoration: BoxDecoration(
+                          color: const Color(0xffe5e8eb),
+                          borderRadius: BorderRadius.circular(90),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.only(left: 24, top: 16, right: 24, bottom: 16),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  SizedBox(
+                                    width: 83,
+                                    height: 16,
+                                    child: Text(
+                                      'System',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff000000), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                                      maxLines: 9999,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 32),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        width: 2,
+                        height: 40,
+                        decoration: BoxDecoration(
+                          color: const Color(0xffe5e8eb),
+                          borderRadius: BorderRadius.circular(2),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 32),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Home',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff777e90), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                        maxLines: 9999,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 32),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Discover',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff777e90), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                        maxLines: 9999,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 32),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Blog',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff777e90), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                        maxLines: 9999,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 32),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'About Us',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff777e90), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                        maxLines: 9999,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(width: 32),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Contact',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff777e90), fontFamily: 'DMSans-Bold', fontWeight: FontWeight.normal),
+                        maxLines: 9999,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              left: 659,
+              width: 1440,
+              top: -8,
+              child: Padding(
+                padding: const EdgeInsets.only(left: 160, top: 20, right: 160, bottom: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  mainAxisSize: MainAxisSize.min,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Column(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        SizedBox(
+                                          width: 38,
+                                          height: 38,
+                                          child: Stack(
+                                            children: [
+                                              Positioned(
+                                                left: 0,
+                                                top: 2,
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    borderRadius: BorderRadius.circular(3),
+                                                  ),
+                                                  child: Padding(
+                                                    padding: const EdgeInsets.all(8),
+                                                    child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.start,
+                                                      mainAxisSize: MainAxisSize.min,
+                                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                                      children: [
+                                                        Column(
+                                                          mainAxisAlignment: MainAxisAlignment.center,
+                                                          children: [
+                                                            SizedBox(
+                                                              width: 20,
+                                                              height: 20,
+                                                              child: Stack(
+                                                                children: [
+                                                                  Positioned(
+                                                                    left: 0,
+                                                                    width: 20,
+                                                                    top: 0,
+                                                                    height: 20,
+                                                                    child: Stack(
+                                                                      children: [
+                                                                        Positioned(
+                                                                          left: 5.833,
+                                                                          width: 3.333,
+                                                                          top: 15.833,
+                                                                          height: 3.333,
+                                                                          child: Image.asset('images/image1_1790.png', width: 3.333, height: 3.333,),
+                                                                        ),
+                                                                        Positioned(
+                                                                          left: 15,
+                                                                          width: 3.333,
+                                                                          top: 15.833,
+                                                                          height: 3.333,
+                                                                          child: Image.asset('images/image2_1791.png', width: 3.333, height: 3.333,),
+                                                                        ),
+                                                                        Positioned(
+                                                                          left: 0,
+                                                                          width: 20,
+                                                                          top: 0,
+                                                                          height: 14.167,
+                                                                          child: Image.asset('images/image3_1792.png', width: 20, height: 14.167,),
+                                                                        ),
+                                                                      ],
+                                                                    ),
+                                                                  ),
+                                                                  Positioned(
+                                                                    left: 0,
+                                                                    width: 20,
+                                                                    top: 0,
+                                                                    height: 20,
+                                                                    child: Container(
+                                                                      width: 20,
+                                                                      height: 20,
+                                                                      decoration: BoxDecoration(
+                                                                        color: const Color(0xff7a869a),
+                                                                      ),
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
+                                                            ),
+                                                          ],
+                                                        ),
+                                                      ],
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                              Positioned(
+                                                left: 18,
+                                                top: 0,
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    color: const Color(0xff18191d),
+                                                    border: Border.all(color: const Color(0xff777e90), width: 1),
+                                                    borderRadius: BorderRadius.circular(12),
+                                                  ),
+                                                  child: Padding(
+                                                    padding: const EdgeInsets.only(left: 6, top: 2, right: 6, bottom: 2),
+                                                    child: Column(
+                                                      mainAxisAlignment: MainAxisAlignment.start,
+                                                      mainAxisSize: MainAxisSize.min,
+                                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                                      children: [
+                                                        Row(
+                                                          mainAxisAlignment: MainAxisAlignment.start,
+                                                          mainAxisSize: MainAxisSize.min,
+                                                          children: [
+                                                            Text(
+                                                              '2',
+                                                              textAlign: TextAlign.left,
+                                                              style: TextStyle(decoration: TextDecoration.none, fontSize: 12, color: const Color(0xffffffff), fontFamily: 'Inter-SemiBold', fontWeight: FontWeight.normal),
+                                                              maxLines: 9999,
+                                                              overflow: TextOverflow.ellipsis,
+                                                            ),
+                                                          ],
+                                                        ),
+                                                      ],
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    const SizedBox(width: 32),
+                                    Column(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        Image.asset('images/containerFrame_1796.png', width: 44, height: 44,),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Positioned(
+              left: 556,
+              width: 48,
+              top: 47,
+              height: 1,
+              child: Container(
+                width: 48,
+                height: 1,
+                decoration: BoxDecoration(
+                  border: Border.all(color: const Color(0xffff0000), width: 1),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 123,
+              top: 199,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      SizedBox(
+                        width: 584,
+                        height: 282,
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                SizedBox(
+                                  width: 612,
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    mainAxisSize: MainAxisSize.min,
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.start,
+                                        mainAxisSize: MainAxisSize.min,
+                                        children: [
+                                          Column(
+                                            mainAxisAlignment: MainAxisAlignment.start,
+                                            mainAxisSize: MainAxisSize.min,
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Row(
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                mainAxisSize: MainAxisSize.min,
+                                                children: [
+                                                  Column(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    mainAxisSize: MainAxisSize.min,
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                                    children: [
+                                                      Row(
+                                                        mainAxisAlignment: MainAxisAlignment.start,
+                                                        mainAxisSize: MainAxisSize.min,
+                                                        children: [
+                                                          SizedBox(
+                                                            width: 613,
+                                                            child: Text(
+                                                              'The name of the WepSite is our right',
+                                                              textAlign: TextAlign.left,
+                                                              style: TextStyle(decoration: TextDecoration.none, fontSize: 21, color: const Color(0xff486283), fontFamily: 'DMSans-Medium', fontWeight: FontWeight.normal),
+                                                              maxLines: 9999,
+                                                              overflow: TextOverflow.ellipsis,
+                                                            ),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                      const SizedBox(height: 8),
+                                                      Row(
+                                                        mainAxisAlignment: MainAxisAlignment.start,
+                                                        mainAxisSize: MainAxisSize.min,
+                                                        children: [
+                                                          SizedBox(
+                                                            width: 613,
+                                                            child: Text(
+                                                              'Edamah',
+                                                              textAlign: TextAlign.left,
+                                                              style: TextStyle(decoration: TextDecoration.none, fontSize: 60, color: const Color(0xff486283), fontFamily: 'DMSans-Regular', fontWeight: FontWeight.normal),
+                                                              maxLines: 9999,
+                                                              overflow: TextOverflow.ellipsis,
+                                                            ),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ],
+                                              ),
+                                              const SizedBox(height: 16),
+                                              Row(
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                mainAxisSize: MainAxisSize.min,
+                                                children: [
+                                                  SizedBox(
+                                                    width: 613,
+                                                    child: Text(
+                                                      'Our app is an app that aims to reduce food waste and help the poor and needy. The application connects people who have excess food with people who need it, by posting pictures and descriptions of the available food, specifying its location and the time of receipt. The application also allows users to communicate with each other, rate their service, and share their experiences.',
+                                                      textAlign: TextAlign.left,
+                                                      style: TextStyle(decoration: TextDecoration.none, fontSize: 20, color: const Color(0xff8ba2bf), fontFamily: 'DMSans-Regular', fontWeight: FontWeight.normal),
+                                                      maxLines: 9999,
+                                                      overflow: TextOverflow.ellipsis,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                      const SizedBox(height: 24),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.start,
+                                        mainAxisSize: MainAxisSize.min,
+                                        children: [
+                                          Row(
+                                            mainAxisAlignment: MainAxisAlignment.start,
+                                            mainAxisSize: MainAxisSize.min,
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Column(
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                mainAxisSize: MainAxisSize.min,
+                                                children: [
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      color: const Color(0xff486283),
+                                                      border: Border.all(color: const Color(0xff486283), width: 1),
+                                                      borderRadius: BorderRadius.circular(50),
+                                                    ),
+                                                    child: Padding(
+                                                      padding: const EdgeInsets.only(left: 20, top: 12, right: 20, bottom: 12),
+                                                      child: Row(
+                                                        mainAxisAlignment: MainAxisAlignment.center,
+                                                        mainAxisSize: MainAxisSize.min,
+                                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                                        children: [
+                                                          Column(
+                                                            mainAxisAlignment: MainAxisAlignment.center,
+                                                            mainAxisSize: MainAxisSize.min,
+                                                            children: [
+                                                              Text(
+                                                                'Sign Up',
+                                                                textAlign: TextAlign.left,
+                                                                style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xffffffff), fontFamily: 'DMSans-Regular', fontWeight: FontWeight.normal),
+                                                                maxLines: 9999,
+                                                                overflow: TextOverflow.ellipsis,
+                                                              ),
+                                                            ],
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                              const SizedBox(width: 24),
+                                              Column(
+                                                mainAxisAlignment: MainAxisAlignment.start,
+                                                mainAxisSize: MainAxisSize.min,
+                                                children: [
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      border: Border.all(color: const Color(0xff486283), width: 1),
+                                                      borderRadius: BorderRadius.circular(50),
+                                                    ),
+                                                    child: Padding(
+                                                      padding: const EdgeInsets.only(left: 20, top: 12, right: 20, bottom: 12),
+                                                      child: Row(
+                                                        mainAxisAlignment: MainAxisAlignment.center,
+                                                        mainAxisSize: MainAxisSize.min,
+                                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                                        children: [
+                                                          Column(
+                                                            mainAxisAlignment: MainAxisAlignment.center,
+                                                            mainAxisSize: MainAxisSize.min,
+                                                            children: [
+                                                              Text(
+                                                                'log in',
+                                                                textAlign: TextAlign.left,
+                                                                style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff486283), fontFamily: 'DMSans-Regular', fontWeight: FontWeight.normal),
+                                                                maxLines: 9999,
+                                                                overflow: TextOverflow.ellipsis,
+                                                              ),
+                                                            ],
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              left: -251,
+              width: 2038,
+              top: 709.935,
+              height: 474.065,
+              child: Stack(
+                children: [
+                  Positioned(
+                    left: 0,
+                    width: 2038,
+                    top: 428.593,
+                    height: 45.472,
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 0,
+                          width: 2038,
+                          top: 0,
+                          height: 1,
+                          child: Container(
+                            width: 2038,
+                            height: 1,
+                            decoration: BoxDecoration(
+                              border: Border.all(color: const Color(0xffd4d4d4), width: 1),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          left: 647.49,
+                          width: 743.021,
+                          top: 16.447,
+                          height: 29.024,
+                          child: Text(
+                            'Copyright © Organick | Designed by VictorFlow Templates - Powered by Webflow',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(decoration: TextDecoration.none, fontSize: 18, color: const Color(0xff515b5f), fontFamily: 'OpenSans', fontWeight: FontWeight.normal),
+                            maxLines: 9999,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Positioned(
+                    left: 1351.236,
+                    width: 1,
+                    top: 0,
+                    height: 325.073,
+                    child: Image.asset('images/containerFooterLine1_22720.png', width: 1, height: 325.073,),
+                  ),
+                  Positioned(
+                    left: 746.969,
+                    width: 543,
+                    top: 66.065,
+                    height: 139,
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 190.031,
+                          width: 60,
+                          top: 145,
+                          height: 60,
+                          child: Image.asset('images/imageEllipse_22749.png', width: 60, height: 60,),
+                        ),
+                        Positioned(
+                          left: 202.031,
+                          top: 47,
+                          child: Text(
+                            'Edamah',
+                            textAlign: TextAlign.left,
+                            style: TextStyle(decoration: TextDecoration.none, fontSize: 38, color: const Color(0xff000000), fontFamily: 'RobotoRoman-Bold', fontWeight: FontWeight.normal),
+                            maxLines: 9999,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Positioned(
+                    left: 686.763,
+                    width: 1,
+                    top: 4.837,
+                    height: 325.073,
+                    child: Image.asset('images/containerFooterLine2_22760.png', width: 1, height: 325.073,),
+                  ),
+                  Positioned(
+                    left: 443,
+                    top: 80.065,
+                    child: Text(
+                      'Contact Us',
+                      textAlign: TextAlign.left,
+                      style: TextStyle(decoration: TextDecoration.none, fontSize: 30, color: const Color(0xff000000), fontFamily: 'RobotoRoman-Bold', fontWeight: FontWeight.normal),
+                      maxLines: 9999,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  Positioned(
+                    left: 331,
+                    width: 286,
+                    top: 134.065,
+                    child: Text(
+                      'Email\nEdamah@gmail.com\n\n\rPhone\n111 111 111 \n ',
+                      textAlign: TextAlign.right,
+                      style: TextStyle(decoration: TextDecoration.none, fontSize: 18, color: const Color(0xff000000), fontFamily: 'OpenSans', fontWeight: FontWeight.normal),
+                      maxLines: 9999,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              left: 706,
+              width: 19.403,
+              top: 941,
+              height: 18.475,
+              child: Image.asset('images/imageFb_22750.png', width: 19.403, height: 18.475,),
+            ),
+            Positioned(
+              left: 616,
+              width: 60,
+              top: 920,
+              height: 60,
+              child: Image.asset('images/imageEllipse1_22744.png', width: 60, height: 60,),
+            ),
+            Positioned(
+              left: 636,
+              width: 19.403,
+              top: 941,
+              height: 18.587,
+              child: Image.asset('images/ivInsta_22745.png', width: 19.403, height: 18.587,),
+            ),
+            Positioned(
+              left: -117,
+              width: 363,
+              top: -316,
+              height: 316,
+              child: Stack(
+                children: [
+                  Positioned(
+                    left: 0,
+                    width: 363,
+                    top: 0,
+                    height: 316,
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: -4.033,
+                          width: 363,
+                          top: 0,
+                          height: 316,
+                          child: Image.asset('images/imageColorFill_I6338651602.png', width: 363, height: 316,),
+                        ),
+                        Positioned(
+                          left: 0,
+                          width: 363,
+                          top: 0,
+                          height: 316,
+                          child: Image.asset('images/imageDiamondImage_I6338651603.png', width: 363, height: 316, fit: BoxFit.cover,),
+                        ),
+                        Positioned(
+                          left: 0,
+                          width: 363,
+                          top: 0,
+                          height: 316,
+                          child: Image.asset('images/imageColorMix_I6338651604.png', width: 363, height: 316,),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              left: 845,
+              width: 500,
+              top: 120,
+              height: 483,
+              child: Image.asset('images/imagePhoto_76234.png', width: 500, height: 483, fit: BoxFit.cover,),
+            ),
+            Positioned(
+              left: 618,
+              width: 2332,
+              top: 417,
+              height: 2332,
+              child: Image.asset('images/imageEllipse2_17103.png', width: 2332, height: 2332,),
+            ),
+            Positioned(
+              left: 755,
+              width: 60,
+              top: 920,
+              height: 60,
+              child: Image.asset('images/image1_22756.png', width: 60, height: 60,),
+            ),
+            Positioned(
+              left: 775,
+              width: 20.789,
+              top: 941,
+              height: 16.544,
+              child: Image.asset('images/image2_22752.png', width: 20.789, height: 16.544,),
+            ),
+            Positioned(
+              left: 830,
+              width: 60,
+              top: 919,
+              height: 60,
+              child: Image.asset('images/imageEllipse3_22753.png', width: 60, height: 60,),
+            ),
+            Positioned(
+              left: 850,
+              width: 19.711,
+              top: 940,
+              height: 19.608,
+              child: Image.asset('images/imagePintrest_22758.png', width: 19.711, height: 19.608,),
+            ),
+            Positioned(
+              left: 1140,
+              width: 302.516,
+              top: 776,
+              height: 294.114,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Other',
+                        textAlign: TextAlign.left,
+                        style: TextStyle(decoration: TextDecoration.none, fontSize: 30, color: const Color(0xff000000), fontFamily: 'RobotoRoman-Bold', fontWeight: FontWeight.normal),
+                        maxLines: 9999,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 24),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      SizedBox(
+                        width: 286,
+                        child: Text(
+                          'recruitment\r\nNewsletter\r\nSupport us\n\r\n',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(decoration: TextDecoration.none, fontSize: 18, color: const Color(0xff000000), fontFamily: 'OpenSans', fontWeight: FontWeight.normal),
+                          maxLines: 9999,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

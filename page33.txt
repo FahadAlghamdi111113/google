@@ -1,0 +1,300 @@
+import 'package:flutter/material.dart';
+import 'package:grouped_list/grouped_list.dart';
+
+class CodiaPage extends StatefulWidget {
+  CodiaPage({super.key});
+
+  @override
+  State<StatefulWidget> createState() => _CodiaPage();
+}
+
+class _CodiaPage extends State<CodiaPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.white,
+      child: Container(
+        width: 1449,
+        height: 1025,
+        decoration: BoxDecoration(
+          color: const Color(0xffc65252),
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              left: -182,
+              width: 2141,
+              top: -44,
+              height: 1465,
+              child: Image.asset('images/imageSidenavBg_17281.png', width: 2141, height: 1465,),
+            ),
+            Positioned(
+              left: 644.5,
+              width: 48,
+              top: 50.5,
+              height: 1,
+              child: Container(
+                width: 48,
+                height: 1,
+                decoration: BoxDecoration(
+                  border: Border.all(color: const Color(0xffff0000), width: 1),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 72,
+              top: 362,
+              child: Text(
+                'Explore Restrant',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 20, color: const Color(0xff253d4e), fontFamily: 'Quicksand-SemiBold', fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 38,
+              width: 46,
+              top: 532,
+              height: 46,
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Image.asset('images/ivLeft1_17312.png', width: 46, height: 46,),
+              ),
+            ),
+            Positioned(
+              left: 1350,
+              width: 46,
+              top: 524,
+              height: 46,
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Image.asset('images/ivRight1_17314.png', width: 46, height: 46,),
+              ),
+            ),
+            Positioned(
+              left: 1030,
+              top: 344,
+              child: Text(
+                'All',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff28b446), fontFamily: 'Quicksand-Medium', fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 1085,
+              top: 345,
+              child: Text(
+                'Restaurants ',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff253d4e), fontFamily: 'Quicksand-Medium', fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 1224,
+              top: 344,
+              child: Text(
+                'People',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xff253d4e), fontFamily: 'Quicksand-Medium', fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 39,
+              width: 46,
+              top: 878,
+              height: 46,
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Image.asset('images/ivLeft2_60152.png', width: 46, height: 46,),
+              ),
+            ),
+            Positioned(
+              left: 78,
+              top: 773,
+              child: Text(
+                'Added recently',
+                textAlign: TextAlign.left,
+                style: TextStyle(decoration: TextDecoration.none, fontSize: 20, color: const Color(0xff253d4e), fontFamily: 'Quicksand-SemiBold', fontWeight: FontWeight.normal),
+                maxLines: 9999,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            Positioned(
+              left: 506,
+              width: 455,
+              top: 330,
+              height: 52,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 329,
+                        height: 52,
+                        decoration: BoxDecoration(
+                          color: const Color(0xffffffff),
+                          borderRadius: BorderRadius.circular(2),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(12),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  SizedBox(
+                                    width: 295.252,
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
+                                            Text(
+                                              'Search for food distributors',
+                                              textAlign: TextAlign.left,
+                                              style: TextStyle(decoration: TextDecoration.none, fontSize: 14, color: const Color(0xffadadad), fontFamily: 'Quicksand-Medium', fontWeight: FontWeight.normal),
+                                              maxLines: 9999,
+                                              overflow: TextOverflow.ellipsis,
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 108,
+                        height: 52,
+                        decoration: BoxDecoration(
+                          color: const Color(0xff3bb77e),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(14),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Text(
+                                    'Search',
+                                    textAlign: TextAlign.left,
+                                    style: TextStyle(decoration: TextDecoration.none, fontSize: 16, color: const Color(0xffffffff), fontFamily: 'Quicksand-SemiBold', fontWeight: FontWeight.normal),
+                                    maxLines: 9999,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              left: 659,
+              width: 1440,
+              top: 0,
+              child: Padding(
+                padding: const EdgeInsets.only(left: 160, top: 20, right: 160, bottom: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  mainAxisSize: MainAxisSize.min,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Column(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        SizedBox(
+                                          width: 39,
+                                          height: 38,
+                                          child: Stack(
+                                            children: [
+                                              Positioned(
+                                                left: 0,
+                                                top: 2,
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    borderRadius: BorderRadius.circular(3),
+                                                  ),
+                                                  child: Padding(
+                                                    padding: const EdgeInsets.all(8),
+                                                    child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.start,
+                                                      mainAxisSize: MainAxisSize.min,
+                                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                                      children: [
+                                                        Column(
+                                                          mainAxisAlignment: MainAxisAlignment.center,
+                                                          children: [
+                                                            SizedBox(
+                                                              width: 20,
+                                                              height: 20,
+                                                              child: Stack(
+                                                                children: [
+                                                                  Positioned(
+                                                                    left: 0,
+                                                                    width: 20,
+                                                                    top: 0,
+                                                                    height: 20,
+                                                                    child: Stack(
+                                                                      children: [
+                                                                        Positioned(
+                                                                          left: 5.833,
+                                                                          width: 3.333,
+                                                                          top: 15.833,
+                                                                          height: 3.333,
+                                                                          child: Image.asset('images/image1_17299.png', width: 3.333, height: 3.333,),
+                                                                        ),
+                                                                        Positioned(
+                                                                          left: 15,
+                                                                          width: 3.333,
+                                                                          top: 15.833,
+                                                                          height: 3.333,
